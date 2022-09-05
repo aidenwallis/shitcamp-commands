@@ -60,9 +60,9 @@ const currentActivity = (activity: Activity) => {
 };
 
 const nextActivity = (activity: Activity) => {
-  return `${activity.name} is next! Streamed in ${format(activity.startsAt)} on ${
-    activity.channelUrl
-  }`;
+  return `${activity.name} is next! Streamed in ${format(
+    activity.startsAt,
+  )} on ${activity.channelUrl}`;
 };
 
 const skipPastActivities = (v: Activity[]) => {
