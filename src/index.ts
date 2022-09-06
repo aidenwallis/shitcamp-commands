@@ -56,7 +56,7 @@ addEventListener("fetch", (event) => {
 });
 
 const currentActivity = (activity: Activity) => {
-  return `${activity.name} is currently being streamed on ${activity.channelUrl}!`;
+  return `${activity.name} is currently being streamed on ${activity.channelUrl}`;
 };
 
 const nextActivity = (activity: Activity) => {
